@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+<script type="module">
+  
+   
+  </script>
+
+
+
+</head>
+<body>
+
+    <div id="maindiv" class="main">
+        <h1 class="heading">
+            What should I do<br>today?
+        </h1>
+        <div class="todo-div">
+            <input id="todo-inp" type="text">
+            <button onclick="addfunc()" class="todo-btn"><i  class="fas fa-plus-square"></i></i></button>
+            <button onclick="delallfunc()" class="todo-btn"><i  class="fas fa-trash"></i></i></button>
+        </div>
+        <ul id="listBox">
+
+        </ul>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
